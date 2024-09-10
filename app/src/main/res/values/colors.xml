@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black40">#66000000</color>
+    <color name="black_alpha_47">#47000000</color>
+    <color name="black_alpha_7f">#7f000000</color>
+    <color name="gray_333333">#333333</color>
+    <color name="gray_6b6b6b">#6B6B6B</color>
+    <color name="gray_767676">#767676</color>
+    <color name="gray_949494">#949494</color>
+    <color name="white_half">#B3FFFFFF</color>
+    <color name="gray_bababa">#BABABA</color>
+    <color name="gray_cccccc">#CCCCCC</color>
+    <color name="gray_eeeeee">#EEEEEE</color>
+    <color name="rbw_color">#6E80FF</color>
+    <color name="photocard_btn_gray">#949494</color>
+    <color name="yellow_fefd19">#FEFD19</color>
+    <color name="main_color">#5D6DBE</color>
+    <color name="main_color10">#1A5D6DBE</color>
+    <color name="lyrics_color">#555555</color>
+    <color name="info_btn_color">#5A5A5A</color>
+
+</resources>

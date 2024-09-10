@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LICON</string>
+
+    <!--1. 튜토리얼-->
+    <string name="tut_text1">用手機輕鬆享受的平臺專輯</string>
+    <string name="tut_text2">觸摸開始</string>
+
+    <!--2. 메인화면-->
+    <string name="reg_text1">尚未註冊的專輯。</string>
+    <string name="reg_btn">專輯註冊</string>
+
+    <!--3. 앨범상세-->
+    <string name="album_detail_label">專輯詳情</string>
+    <string name="album_detail_tap1">歌曲</string>
+    <string name="album_detail_tap2">媒體</string>
+    <string name="album_detail_tap3">照片卡</string>
+
+    <!--4. 알림-->
+    <string name="alert">告示</string>
+    <string name="notice">公告事項</string>
+
+    <!--5. 앨범 보관함-->
+    <string name="myalbum">相冊保管箱</string>
+
+    <!--0. 다이얼로그-->
+    <string name="dialog_reg_text">登記專輯後可以使用。</string>
+    <string name="dialog_close">關閉</string>
+
+    <string name="dialog_success">註冊成功</string>
+    <string name="dialog_success2">專輯已註冊。</string>
+    <string name="dialog_success_btn">專輯快捷方式</string>
+    <string name="dialog_ok">確認</string>
+
+    <string name="dialog_open">打開</string>
+
+    <string name="dialog_fail">註冊失敗</string>
+    <string name="dialog_fail2">請稍後再試。</string>
+
+    <string name="nfc_text">將您的Device放在NFC標籤附近。</string>
+    <string name="nfc_success">正確的NFC卡。</string>
+    <string name="nfc_fail">這不是正確的NFC卡。</string>
+
+    <string name="nfc_text1">無效的NFC卡。</string>
+    <string name="nfc_text2">NFC卡已成功註冊。</string>
+    <string name="nfc_text3">這張NFC卡已經註冊過了。</string>
+
+    <string name="nfc_message1">由於檢測到一個或多個標籤，請移除所有標籤後重試。</string>
+    <string name="nfc_message2">無法連接到標籤。</string>
+    <string name="nfc_message3">無法查詢標籤的NDEF狀態。</string>
+    <string name="nfc_message4">無法從標籤讀取NDEF。</string>
+    <string name="nfc_message5">NFC卡已識別。</string>
+
+    <string name="capture_text1">檢測截圖</string>
+    <string name="capture_text2">請注意，擅自傳播/共享\n可能會受到法律制裁。</string>
+
+    <string name="youtube1">外部 App</string>
+    <string name="youtube2">這個視頻會在YouTube上播放。</string>
+    <string name="youtube3">從下次開始不問</string>
+
+    <string name="download_media">Download Media</string>
+    <string name="download_photo">Download Photo</string>
+    <string name="download_mp3">Download mp3</string>
+    <string name="download_fail">Download Fail</string>
+    <string name="dialog_dup">專輯重複</string>
+    <string name="dialog_dup_text">該專輯已經註冊過了。\n重新註冊請諮詢客服中心。</string>
+    <string name="dialog_scan">準備掃描</string>
+    <string name="nfc_no_device">此裝置不支援NFC。</string>
+    <string name="shuffle_on">選擇隨機播放</string>
+    <string name="shuffle_off">關閉隨機播放</string>
+    <string name="play_one">單曲循環播放</string>
+    <string name="download_need">需要下載</string>
+    <string name="download_img_fail">圖片下載失敗</string>
+    <string name="download_img_success">圖片下載成功</string>
+    <string name="play_all">全部循環播放</string>
+    <string name="play_no_repeat">不重複</string>
+    <string name="download_file">File Download</string>
+    <string name="album_info">專輯資訊</string>
+    <string name="dialog_btn_customer">客服中心</string>
+    <string name="album_intro">專輯介紹</string>
+</resources>

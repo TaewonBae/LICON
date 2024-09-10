@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="231dp"
+        android:background="@drawable/shadow_d">
+
+        <ImageView
+            android:id="@+id/myalbum_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/corner_radius_6"
+            android:scaleType="fitXY"
+            android:src="@drawable/album_img" />
+
+        <RelativeLayout
+            android:id="@+id/rl_no_registed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/corner_grid_album_shadow"
+            android:visibility="gone">
+
+
+            <ImageView
+                android:id="@+id/album_blur"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/corner_grid_album_shadow"
+                android:scaleType="fitXY"
+                android:src="@drawable/main_card_blur"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_regist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/corner_regist_button"
+                android:fontFamily="@font/suitbold"
+                android:paddingHorizontal="15dp"
+                android:text="등록하기"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/myalbum_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/suitbold"
+        android:gravity="center"
+        android:text="Album"
+        android:textSize="14dp"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/myalbum_artist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/suitmedium"
+        android:gravity="center"
+        android:text="Artist"
+        android:textSize="10dp" />
+</LinearLayout>

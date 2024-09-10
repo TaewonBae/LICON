@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="207dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/suitbold"
+        android:gravity="center_horizontal"
+        android:text="with LICON | Platform Album"
+        android:textColor="@color/black_alpha_47"
+        android:textSize="12dp" />
+
+</FrameLayout>
